@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+    <section class="container">
+        
+        <input type="number" oninput="ceborda()" class="entradas" id="cimaE" value="0" min="0">
+        <input type="number" oninput="cdborda()" class="entradas" id="cimaD" value="0" min="0">
+
+        
+        <div id="quadrado">
+        </div>
+        <input type="number" oninput="beborda()" class="entradas" id="baixoE" value="0" min="0">
+        <input type="number" oninput="bdborda()" class="entradas" id="baixoD" value="0" min="0">
+        
+        <br><br>
+        Altura:
+        <input type="number" id="largura" oninput="quadLar()" placeholder="largura" value="300">
+        Largura:
+        <input type="number" id="altura" oninput="quadAlt()" placeholder="altura" value="300">
+        <br>
+        <input type="text" id="texto">
+        
+
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

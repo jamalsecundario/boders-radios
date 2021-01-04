@@ -1,0 +1,60 @@
+:root{
+    --primary-color:  rgb(19, 160, 160);
+    --primary-color-darker:  rgb(0, 66, 66);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.container{
+    background-color: rgb(215, 239, 250);
+    border-radius: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+    margin-top: 50px;
+    min-height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+/*--------------ID--------------*/
+
+#quadrado {
+    background-color: rgb(235, 235, 235);
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 1px solid #454545;
+}
+
+#altura, #largura{
+    width: 80px;
+    margin-bottom: 50px;
+}
+
+
+
+#texto {
+    width: 450px;
+    height: 100px;
+    margin: 0 auto 40px auto;
+}
+
+/*-------------CLASS-------------*/
+
+.entradas {
+    width: 50px;
+    margin: 0 120px;
+}
+
+
