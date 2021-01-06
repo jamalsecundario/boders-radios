@@ -1,6 +1,6 @@
 # boders-radios
 
-Um aplicativo local que ajuda quem não sabe usar border radius
+Um aplicativo que ajuda quem não sabe usar border radius
 
 ### 📋 Pré-requisitos
 
