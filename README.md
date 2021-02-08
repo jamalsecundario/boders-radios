@@ -7,7 +7,7 @@ Um aplicativo que ajuda quem não sabe usar border radius
 Ter todos os arquivos do repositório baixados no computador
 
 
-## ⚙️ Executando os testes
+## ⚙️ Executando
 
 Execute o arquivo index.html e faça modificações em cada seletor de número!
 
